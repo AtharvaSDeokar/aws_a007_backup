@@ -1,0 +1,879 @@
+[2023-03-24 20:59:01,658] INFO Reading configuration from: /home/ubuntu/kafka_2.13-2.7.0/config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-24 20:59:01,668] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-24 20:59:01,668] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-24 20:59:01,679] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2023-03-24 20:59:01,679] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2023-03-24 20:59:01,679] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2023-03-24 20:59:01,679] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2023-03-24 20:59:01,683] INFO Log4j 1.2 jmx support found and enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2023-03-24 20:59:01,711] INFO Reading configuration from: /home/ubuntu/kafka_2.13-2.7.0/config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-24 20:59:01,711] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-24 20:59:01,711] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2023-03-24 20:59:01,711] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2023-03-24 20:59:01,715] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2023-03-24 20:59:01,735] INFO Server environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,735] INFO Server environment:host.name=ip-172-31-1-190.ap-south-1.compute.internal (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,735] INFO Server environment:java.version=11.0.18 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,735] INFO Server environment:java.vendor=Ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,735] INFO Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,735] INFO Server environment:java.class.path=/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/activation-1.1.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/aopalliance-repackaged-2.6.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/argparse4j-0.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/audience-annotations-0.5.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/commons-cli-1.4.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/commons-lang3-3.8.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-api-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-basic-auth-extension-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-file-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-json-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-mirror-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-mirror-client-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-runtime-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-transforms-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/hk2-api-2.6.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/hk2-locator-2.6.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/hk2-utils-2.6.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-annotations-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-core-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-databind-2.10.5.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-dataformat-csv-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-datatype-jdk8-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-jaxrs-base-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-jaxrs-json-provider-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-module-jaxb-annotations-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-module-paranamer-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-module-scala_2.13-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.annotation-api-1.3.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.inject-2.6.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.validation-api-2.0.2.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.ws.rs-api-2.1.6.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/javassist-3.25.0-GA.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/javassist-3.26.0-GA.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jaxb-api-2.3.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-client-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-common-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-container-servlet-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-container-servlet-core-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-hk2-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-media-jaxb-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-server-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-client-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-continuation-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-http-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-io-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-security-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-server-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-servlet-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-servlets-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-util-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jopt-simple-5.0.4.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-clients-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-log4j-appender-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-raft-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-streams-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-streams-examples-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-streams-scala_2.13-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-streams-test-utils-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-tools-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka_2.13-2.7.0-sources.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka_2.13-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/log4j-1.2.17.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/lz4-java-1.7.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/maven-artifact-3.6.3.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/metrics-core-2.2.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-buffer-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-codec-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-common-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-handler-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-resolver-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-transport-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-transport-native-epoll-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-transport-native-unix-common-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/osgi-resource-locator-1.0.3.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/paranamer-2.8.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/plexus-utils-3.2.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/reflections-0.9.12.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/rocksdbjni-5.18.4.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/scala-collection-compat_2.13-2.2.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/scala-java8-compat_2.13-0.9.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/scala-library-2.13.3.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/scala-logging_2.13-3.9.2.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/scala-reflect-2.13.3.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/slf4j-api-1.7.30.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/snappy-java-1.1.7.7.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/zookeeper-3.5.8.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/zookeeper-jute-3.5.8.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/zstd-jni-1.4.5-6.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:os.version=5.15.0-1031-aws (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:user.name=ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:user.home=/home/ubuntu (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:user.dir=/home/ubuntu/kafka_2.13-2.7.0/config (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,736] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,738] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,739] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,740] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /home/ubuntu/kafka_2.13-2.7.0/Data/Zookeeper/version-2 snapdir /home/ubuntu/kafka_2.13-2.7.0/Data/Zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:01,779] INFO Logging initialized @863ms to org.eclipse.jetty.util.log.Slf4jLog (org.eclipse.jetty.util.log)
+[2023-03-24 20:59:01,894] WARN o.e.j.s.ServletContextHandler@3d285d7e{/,null,STOPPED} contextPath ends with /* (org.eclipse.jetty.server.handler.ContextHandler)
+[2023-03-24 20:59:01,894] WARN Empty contextPath (org.eclipse.jetty.server.handler.ContextHandler)
+[2023-03-24 20:59:01,911] INFO jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 11.0.18+10-post-Ubuntu-0ubuntu122.04 (org.eclipse.jetty.server.Server)
+[2023-03-24 20:59:01,962] INFO DefaultSessionIdManager workerName=node0 (org.eclipse.jetty.server.session)
+[2023-03-24 20:59:01,962] INFO No SessionScavenger set, using defaults (org.eclipse.jetty.server.session)
+[2023-03-24 20:59:01,963] INFO node0 Scavenging every 660000ms (org.eclipse.jetty.server.session)
+[2023-03-24 20:59:01,979] INFO Started o.e.j.s.ServletContextHandler@3d285d7e{/,null,AVAILABLE} (org.eclipse.jetty.server.handler.ContextHandler)
+[2023-03-24 20:59:02,000] INFO Started ServerConnector@5b8dfcc1{HTTP/1.1, (http/1.1)}{0.0.0.0:9090} (org.eclipse.jetty.server.AbstractConnector)
+[2023-03-24 20:59:02,001] INFO Started @1086ms (org.eclipse.jetty.server.Server)
+[2023-03-24 20:59:02,001] INFO Started AdminServer on address 0.0.0.0, port 9090 and command URL /commands (org.apache.zookeeper.server.admin.JettyAdminServer)
+[2023-03-24 20:59:02,008] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2023-03-24 20:59:02,013] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 4 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2023-03-24 20:59:02,014] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2023-03-24 20:59:02,031] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2023-03-24 20:59:02,034] INFO Reading snapshot /home/ubuntu/kafka_2.13-2.7.0/Data/Zookeeper/version-2/snapshot.2b (org.apache.zookeeper.server.persistence.FileSnap)
+[2023-03-24 20:59:02,055] INFO Snapshotting: 0x57 to /home/ubuntu/kafka_2.13-2.7.0/Data/Zookeeper/version-2/snapshot.57 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2023-03-24 20:59:02,076] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2023-03-24 20:59:20,692] INFO Expiring session 0x1000003e6930001, timeout of 18000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2023-03-24 20:59:20,695] INFO Creating new log file: log.58 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2023-03-24 20:59:27,748] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2023-03-24 20:59:28,163] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2023-03-24 20:59:28,236] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2023-03-24 20:59:28,240] INFO starting (kafka.server.KafkaServer)
+[2023-03-24 20:59:28,241] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2023-03-24 20:59:28,269] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2023-03-24 20:59:28,276] INFO Client environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,277] INFO Client environment:host.name=ip-172-31-1-190.ap-south-1.compute.internal (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,277] INFO Client environment:java.version=11.0.18 (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,279] INFO Client environment:java.vendor=Ubuntu (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,279] INFO Client environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,279] INFO Client environment:java.class.path=/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/activation-1.1.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/aopalliance-repackaged-2.6.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/argparse4j-0.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/audience-annotations-0.5.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/commons-cli-1.4.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/commons-lang3-3.8.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-api-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-basic-auth-extension-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-file-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-json-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-mirror-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-mirror-client-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-runtime-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/connect-transforms-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/hk2-api-2.6.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/hk2-locator-2.6.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/hk2-utils-2.6.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-annotations-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-core-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-databind-2.10.5.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-dataformat-csv-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-datatype-jdk8-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-jaxrs-base-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-jaxrs-json-provider-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-module-jaxb-annotations-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-module-paranamer-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jackson-module-scala_2.13-2.10.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.annotation-api-1.3.5.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.inject-2.6.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.validation-api-2.0.2.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.ws.rs-api-2.1.6.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/javassist-3.25.0-GA.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/javassist-3.26.0-GA.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jaxb-api-2.3.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-client-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-common-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-container-servlet-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-container-servlet-core-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-hk2-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-media-jaxb-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jersey-server-2.31.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-client-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-continuation-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-http-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-io-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-security-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-server-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-servlet-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-servlets-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jetty-util-9.4.33.v20201020.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/jopt-simple-5.0.4.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-clients-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-log4j-appender-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-raft-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-streams-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-streams-examples-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-streams-scala_2.13-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-streams-test-utils-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka-tools-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka_2.13-2.7.0-sources.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/kafka_2.13-2.7.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/log4j-1.2.17.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/lz4-java-1.7.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/maven-artifact-3.6.3.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/metrics-core-2.2.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-buffer-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-codec-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-common-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-handler-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-resolver-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-transport-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-transport-native-epoll-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/netty-transport-native-unix-common-4.1.51.Final.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/osgi-resource-locator-1.0.3.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/paranamer-2.8.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/plexus-utils-3.2.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/reflections-0.9.12.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/rocksdbjni-5.18.4.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/scala-collection-compat_2.13-2.2.0.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/scala-java8-compat_2.13-0.9.1.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/scala-library-2.13.3.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/scala-logging_2.13-3.9.2.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/scala-reflect-2.13.3.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/slf4j-api-1.7.30.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/snappy-java-1.1.7.7.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/zookeeper-3.5.8.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/zookeeper-jute-3.5.8.jar:/home/ubuntu/kafka_2.13-2.7.0/bin/../libs/zstd-jni-1.4.5-6.jar (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,280] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,280] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,280] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,280] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,281] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,281] INFO Client environment:os.version=5.15.0-1031-aws (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,281] INFO Client environment:user.name=ubuntu (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,281] INFO Client environment:user.home=/home/ubuntu (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,281] INFO Client environment:user.dir=/home/ubuntu (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,281] INFO Client environment:os.memory.free=978MB (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,281] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,281] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,284] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@329dbdbf (org.apache.zookeeper.ZooKeeper)
+[2023-03-24 20:59:28,290] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2023-03-24 20:59:28,296] INFO zookeeper.request.timeout value is 0. feature enabled= (org.apache.zookeeper.ClientCnxn)
+[2023-03-24 20:59:28,300] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2023-03-24 20:59:28,308] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2023-03-24 20:59:28,315] INFO Socket connection established, initiating session, client: /127.0.0.1:33848, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2023-03-24 20:59:28,334] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000003a7070000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2023-03-24 20:59:28,337] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2023-03-24 20:59:28,440] INFO [feature-zk-node-event-process-thread]: Starting (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+[2023-03-24 20:59:28,690] INFO Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Features{}, epoch=0). (kafka.server.FinalizedFeatureCache)
+[2023-03-24 20:59:28,694] INFO Cluster ID = H-f6onknSvWz-L3KsU-LMQ (kafka.server.KafkaServer)
+[2023-03-24 20:59:28,761] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = PLAINTEXT://:9092
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.7-IV2
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:29092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /home/ubuntu/kafka_2.13-2.7.0/Data/Kafka
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.7-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2023-03-24 20:59:28,770] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = PLAINTEXT://:9092
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.7-IV2
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:29092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /home/ubuntu/kafka_2.13-2.7.0/Data/Kafka
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.7-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2023-03-24 20:59:28,814] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2023-03-24 20:59:28,822] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2023-03-24 20:59:28,822] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2023-03-24 20:59:28,821] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2023-03-24 20:59:28,875] INFO Loading logs from log dirs ArraySeq(/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka) (kafka.log.LogManager)
+[2023-03-24 20:59:28,877] INFO Attempting recovery for all logs in /home/ubuntu/kafka_2.13-2.7.0/Data/Kafka since no clean shutdown file was found (kafka.log.LogManager)
+[2023-03-24 20:59:28,941] INFO [Log partition=cc-0, dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka] Recovering unflushed segment 0 (kafka.log.Log)
+[2023-03-24 20:59:28,942] INFO [Log partition=cc-0, dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2023-03-24 20:59:28,974] INFO [Log partition=cc-0, dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2023-03-24 20:59:28,984] INFO Completed load of Log(dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka/cc-0, topic=cc, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=0) with 1 segments in 99ms (1/3 loaded in /home/ubuntu/kafka_2.13-2.7.0/Data/Kafka) (kafka.log.LogManager)
+[2023-03-24 20:59:28,987] INFO [Log partition=kafkatest-0, dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka] Recovering unflushed segment 0 (kafka.log.Log)
+[2023-03-24 20:59:28,987] INFO [Log partition=kafkatest-0, dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2023-03-24 20:59:28,998] INFO [ProducerStateManager partition=kafkatest-0] Writing producer snapshot at offset 3 (kafka.log.ProducerStateManager)
+[2023-03-24 20:59:29,008] INFO [Log partition=kafkatest-0, dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2023-03-24 20:59:29,009] INFO [ProducerStateManager partition=kafkatest-0] Loading producer state from snapshot file '/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka/kafkatest-0/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2023-03-24 20:59:29,014] INFO Completed load of Log(dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka/kafkatest-0, topic=kafkatest, partition=0, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=3) with 1 segments in 30ms (2/3 loaded in /home/ubuntu/kafka_2.13-2.7.0/Data/Kafka) (kafka.log.LogManager)
+[2023-03-24 20:59:29,016] INFO [Log partition=kafkatest-1, dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka] Recovering unflushed segment 0 (kafka.log.Log)
+[2023-03-24 20:59:29,016] INFO [Log partition=kafkatest-1, dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2023-03-24 20:59:29,020] INFO [ProducerStateManager partition=kafkatest-1] Writing producer snapshot at offset 3 (kafka.log.ProducerStateManager)
+[2023-03-24 20:59:29,023] INFO [Log partition=kafkatest-1, dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2023-03-24 20:59:29,024] INFO [ProducerStateManager partition=kafkatest-1] Loading producer state from snapshot file '/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka/kafkatest-1/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2023-03-24 20:59:29,027] INFO Completed load of Log(dir=/home/ubuntu/kafka_2.13-2.7.0/Data/Kafka/kafkatest-1, topic=kafkatest, partition=1, highWatermark=0, lastStableOffset=0, logStartOffset=0, logEndOffset=3) with 1 segments in 13ms (3/3 loaded in /home/ubuntu/kafka_2.13-2.7.0/Data/Kafka) (kafka.log.LogManager)
+[2023-03-24 20:59:29,031] INFO Loaded 3 logs in 156ms. (kafka.log.LogManager)
+[2023-03-24 20:59:29,044] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2023-03-24 20:59:29,045] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2023-03-24 20:59:29,575] INFO Created ConnectionAcceptRate sensor, quotaLimit=2147483647 (kafka.network.ConnectionQuotas)
+[2023-03-24 20:59:29,581] INFO Created ConnectionAcceptRate-PLAINTEXT sensor, quotaLimit=2147483647 (kafka.network.ConnectionQuotas)
+[2023-03-24 20:59:29,583] INFO Updated PLAINTEXT max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+[2023-03-24 20:59:29,587] INFO Awaiting socket connections on 0.0.0.0:29092. (kafka.network.Acceptor)
+[2023-03-24 20:59:29,641] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2023-03-24 20:59:29,689] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-24 20:59:29,697] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-24 20:59:29,703] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-24 20:59:29,703] INFO [ExpirationReaper-0-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-24 20:59:29,719] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2023-03-24 20:59:29,726] INFO [broker-0-to-controller-send-thread]: Starting (kafka.server.BrokerToControllerRequestThread)
+[2023-03-24 20:59:29,769] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2023-03-24 20:59:29,803] INFO Stat of the created znode at /brokers/ids/0 is: 103,103,1679691569797,1679691569797,1,0,0,72057609725083648,270,0,103
+ (kafka.zk.KafkaZkClient)
+[2023-03-24 20:59:29,804] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT://ip-172-31-1-190.ap-south-1.compute.internal:9092, czxid (broker epoch): 103 (kafka.zk.KafkaZkClient)
+[2023-03-24 20:59:29,883] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-24 20:59:29,907] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-24 20:59:29,909] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-24 20:59:29,972] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2023-03-24 20:59:29,983] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2023-03-24 20:59:30,013] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:3000,blockEndProducerId:3999) by writing to Zk with path version 4 (kafka.coordinator.transaction.ProducerIdManager)
+[2023-03-24 20:59:30,051] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2023-03-24 20:59:30,059] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2023-03-24 20:59:30,085] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2023-03-24 20:59:30,086] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:30,179] INFO [ExpirationReaper-0-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2023-03-24 20:59:30,191] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:30,210] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2023-03-24 20:59:30,217] INFO [SocketServer brokerId=0] Starting socket server acceptors and processors (kafka.network.SocketServer)
+[2023-03-24 20:59:30,262] INFO [SocketServer brokerId=0] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2023-03-24 20:59:30,263] INFO [SocketServer brokerId=0] Started socket server acceptors and processors (kafka.network.SocketServer)
+[2023-03-24 20:59:30,270] INFO Kafka version: 2.7.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2023-03-24 20:59:30,271] INFO Kafka commitId: 448719dc99a19793 (org.apache.kafka.common.utils.AppInfoParser)
+[2023-03-24 20:59:30,271] INFO Kafka startTimeMs: 1679691570264 (org.apache.kafka.common.utils.AppInfoParser)
+[2023-03-24 20:59:30,272] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2023-03-24 20:59:30,295] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:30,397] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:30,499] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:30,600] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:30,701] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:30,803] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:30,904] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:31,005] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:31,107] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:31,208] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:31,310] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:31,411] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:31,512] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:31,613] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:31,715] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:31,816] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:31,917] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:32,018] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:32,120] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:32,222] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:32,323] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:32,424] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:32,525] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:32,627] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:32,728] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:32,829] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:32,931] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:33,032] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:33,133] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:33,234] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:33,336] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:33,437] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:33,538] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:33,640] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:33,741] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:33,842] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:33,943] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:34,044] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:34,147] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:34,249] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:34,352] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:34,454] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:34,556] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:34,657] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:34,758] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:34,859] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:34,962] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:35,063] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:35,164] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:35,265] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:35,366] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:35,468] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:35,569] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:35,670] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:35,771] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:35,873] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:35,974] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:36,075] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:36,176] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:36,277] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:36,379] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:36,480] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:36,581] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:36,683] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:36,784] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:36,886] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:36,987] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:37,088] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:37,189] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:37,290] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:37,391] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:37,492] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:37,594] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:37,695] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:37,796] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:37,897] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:37,998] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:38,100] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:38,201] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:38,302] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:38,403] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:38,504] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:38,606] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:38,707] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:38,809] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:38,910] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:39,011] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:39,112] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:39,213] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:39,315] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:39,416] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:39,517] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:39,618] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:39,719] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:39,820] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:39,921] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:40,024] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:40,125] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:40,226] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:40,327] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:40,428] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:40,529] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:40,630] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:40,731] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:40,833] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:40,934] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:41,035] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:41,136] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:41,237] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:41,338] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:41,439] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:41,541] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:41,642] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:41,743] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:41,844] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:41,946] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:42,047] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:42,148] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:42,249] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:42,350] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:42,451] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:42,552] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:42,654] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:42,755] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:42,856] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:42,957] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:43,059] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:43,160] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:43,261] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:43,362] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:43,463] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:43,564] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:43,665] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:43,766] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:43,867] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:43,968] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:44,069] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:44,170] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:44,271] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:44,372] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:44,473] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:44,574] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:44,675] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:44,776] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:44,877] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:44,978] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:45,080] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:45,181] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:45,282] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:45,384] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:45,485] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:45,586] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:45,688] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:45,789] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:45,890] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:45,991] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:46,092] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:46,193] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:46,294] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:46,396] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:46,497] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:46,598] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:46,699] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:46,800] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:46,901] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:47,002] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:47,103] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:47,204] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:47,308] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:47,409] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:47,510] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:47,611] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:47,712] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:47,813] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:47,914] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:48,020] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:48,121] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:48,222] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:48,323] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:48,424] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:48,525] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:48,626] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:48,727] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:48,828] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:48,929] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:49,030] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:49,131] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:49,233] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:49,334] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:49,435] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:49,536] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:49,637] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:49,738] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:49,839] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:49,940] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:50,041] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:50,143] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:50,248] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:50,349] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:50,450] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:50,551] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:50,652] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:50,753] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:50,854] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:50,955] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:51,056] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:51,157] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:51,258] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:51,359] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:51,460] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:51,561] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:51,662] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:51,763] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:51,864] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:51,965] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:52,066] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:52,167] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:52,268] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:52,369] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:52,470] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:52,571] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:52,672] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:52,773] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:52,874] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:52,975] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:53,076] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:53,177] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:53,278] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:53,379] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:53,480] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:53,580] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:53,681] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:53,782] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:53,883] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:53,984] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:54,085] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:54,187] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:54,287] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:54,388] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:54,489] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:54,590] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:54,691] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:54,792] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:54,893] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:54,994] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:55,095] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:55,197] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:55,298] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:55,399] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:55,500] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:55,601] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:55,702] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:55,803] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:55,904] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:56,005] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:56,106] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:56,207] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:56,308] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:56,409] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:56,510] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:56,611] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:56,712] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:56,813] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:56,913] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:57,014] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:57,115] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:57,216] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:57,317] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:57,418] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:57,519] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:57,620] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:57,721] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:57,822] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:57,923] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:58,024] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:58,125] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:58,226] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:58,328] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:58,429] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:58,530] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:58,630] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:58,731] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:58,832] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:58,933] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:59,034] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:59,135] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:59,236] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:59,337] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:59,438] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:59,539] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:59,639] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:59,740] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:59,841] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2023-03-24 20:59:59,942] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (ip-172-31-1-190.ap-south-1.compute.internal/172.31.1.190:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
